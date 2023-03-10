@@ -45,8 +45,8 @@ void PositionElement ( int rows, int cols,int[,] inputArray)
 }  
 int [,] resultMatrix =  GetMatrix(3,4,0,10);
 PrintMatrix(resultMatrix);
-Console.Write("Ввыедите номер строки для элемента в массиве: ");
+Console.Write("Введите номер строки для элемента в массиве: ");
 int i = Convert.ToInt32(Console.ReadLine());
-Console.Write("Ввыедите номер строки для элемента в массиве: ");
+Console.Write("Введите номер столбца для элемента в массиве: ");
 int j = Convert.ToInt32(Console.ReadLine());
 PositionElement(i,j,resultMatrix);
